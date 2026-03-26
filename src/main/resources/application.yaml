@@ -7,9 +7,22 @@ spring:
 
   cloud:
     config:
-      uri: http://config.platform:9000
+      uri: http://localhost:9000
 
 
 
 
-#inside resources folder we have application.yaml file which has the configuration for program-service and this file imports the configuration from config-server using spring.config.import property and the values in this file will override the values in config-server if there are any conflicts.
+#spring:
+#  application:
+#    name: program-service
+#
+#  config:
+#    import: "configserver:"
+#
+#  cloud:
+#    config:
+#      uri: http://config.platform:9000
+#
+#
+#
+#

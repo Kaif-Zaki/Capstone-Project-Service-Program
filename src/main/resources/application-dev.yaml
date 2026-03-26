@@ -12,4 +12,3 @@ spring:
 
 
 
-#inside resources folder we have application.yaml file which has the configuration for program-service and this file imports the configuration from config-server using spring.config.import property and the values in this file will override the values in config-server if there are any conflicts.
